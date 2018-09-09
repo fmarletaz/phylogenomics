@@ -23,7 +23,10 @@ optional arguments:
 
 ## phylostata.py 
 This utility computes various statistics against a collection of alignments and applies from filters. 
-Dependencies: [ete3 library](http://etetoolkit.org/docs/latest/index.html#), [numpy](https://docs.scipy.org/doc/numpy/reference/) and [Biopython](https://biopython.org) which can all be installed with conda. Briefly, it checks the monophyly for each clade mentioning in the taxonomic list, it computes the mutational saturation for each alignment, and excludes taxa with divergence to the root higher than a threshold. 
+
+Dependencies: [ete3 library](http://etetoolkit.org/docs/latest/index.html#), [numpy](https://docs.scipy.org/doc/numpy/reference/) and [Biopython](https://biopython.org) which can all be installed with conda. 
+
+Briefly, it checks the monophyly for each clade mentioning in the taxonomic list, it computes the mutational saturation for each alignment, and excludes taxa with divergence to the root higher than a threshold. 
 The usage is very simply: 
 
 `Usage: phyloStrata.py <taxlist> <suffix> <fasta files...>`
