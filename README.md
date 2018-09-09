@@ -25,7 +25,9 @@ optional arguments:
 This utility computes various statistics against a collection of alignments and applies from filters. 
 Dependencies: [ete3 library](http://etetoolkit.org/docs/latest/index.html#), [numpy](https://docs.scipy.org/doc/numpy/reference/) and [Biopython](https://biopython.org) which can all be installed with conda. Briefly, it checks the monophyly for each clade mentioning in the taxonomic list, it computes the mutational saturation for each alignment, and excludes taxa with divergence to the root higher than a threshold. 
 The usage is very simply: 
+
 `Usage: phyloStrata.py <taxlist> <suffix> <fasta files...>`
+
 `taxlist` needs to be formatted as a list of taxa within the alignments with a generic clade name separated by a tab. The monophyly of the taxa in the clade will be checked. 
 The `suffix` will be used for the output file. 
 The `tree files` need to be named as taxon.xx.xx and corresponding fasta files `taxon.al.hc.tr.fa`.
